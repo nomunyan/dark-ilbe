@@ -1,0 +1,180 @@
+/* ==UserStyle==
+@name           ilbe-dark
+@namespace      github.com/nomunyan/ilbe-dark
+@version        1.0.0
+@description    일간베스트저장소 다크테마
+@author         일게이
+@preprocessor   default
+==/UserStyle== */
+@-moz-document domain("ilbe.com") {
+  body,
+  .pulldown-wrap {
+    background-color: #222;
+  }
+
+  .widget h2 a,
+  .tmonsori_1.date {
+    color: #fff;
+  }
+
+  .bg-season {
+    background: none !important;
+  }
+
+  .board-body .notice-line {
+    background: #000 !important;
+  }
+
+  .board-body li:nth-of-type(odd) {
+    background: #333;
+  }
+
+  .board-body li:hover,
+  .my-board li:hover {
+    background: #444;
+  }
+
+  .list-current-doc {
+    background: #233038 !important;
+  }
+
+  .my-tab ul li {
+    background: #444;
+  }
+  .my-tab ul li.on {
+    background: #222;
+  }
+
+  .board-body .subject {
+    color: #ccc;
+  }
+
+  .global-nick {
+    color: #ccc;
+  }
+
+  .board-body .subject:visited {
+    color: #666;
+  }
+
+  .board-body .title-line > span {
+    background: #444;
+    color: #fff !important;
+  }
+
+  a,
+  .board-util a {
+    color: #ccc;
+  }
+
+  .comment-group .comment-write {
+    background: #333;
+  }
+  .comment-write-box,
+  .comment-write-box textarea,
+  #comment {
+    background: #555 !important;
+    color: #eee;
+  }
+
+  .my-board .board-header,
+  .my-board .board-header:hover {
+    background: #555;
+  }
+  .my-board .board-header span {
+    color: #ccc;
+  }
+
+  .comment-group .comment-item .nick a {
+    color: #69c0ff;
+  }
+
+  select,
+  input,
+  .search-area .search-window,
+  .member-board .item-value,
+  .pulldown-wrap .btn-wrap {
+    background-color: #444;
+  }
+
+  .search-area .search-window {
+    border-color: #d20000;
+  }
+
+  .board-body,
+  .board-body li,
+  .post-comment-wrap,
+  .attached-file,
+  .post-header,
+  .my-body,
+  .my-tab ul li.on,
+  .my-board,
+  .my-board li > span,
+  .board-body .title-line,
+  .btn-default span,
+  .pulldown-wrap td,
+  #aside-wrap,
+  select,
+  input {
+    border-color: #777;
+  }
+
+  #container {
+    background-image: none;
+  }
+
+  .aside-section,
+  #aside-wrap {
+    background-color: #444;
+  }
+  .member-wrap .member-service a,
+  .member-wrap .logout {
+    background: #333;
+    border-color: #777;
+    color: #ccc;
+  }
+
+  .bookmark-more,
+  .bookmark-more button {
+    background: #bbb;
+    border-color: #777;
+    color: #444;
+  }
+
+  .comment-image-box {
+    background: #444;
+    border-color: #777;
+  }
+
+  body,
+  input,
+  select,
+  table,
+  textarea,
+  button,
+  .member-connect,
+  .post-count .count .date,
+  .post-count .count .comment-num a,
+  .board-top .write-num {
+    color: #ccc;
+  }
+
+  .comment-group .reply-item,
+  .attached-file {
+    background: #333;
+  }
+
+  .user-pop-menu tr {
+    background-color: #555 !important;
+    border-color: #777 !important;
+  }
+
+  .btn-default span,
+  .vote-wrap .btn-vote {
+    background: #222;
+  }
+
+  #event-toast .toast a {
+    color: #444 !important;
+  }
+}
