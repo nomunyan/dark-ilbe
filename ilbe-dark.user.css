@@ -3,10 +3,13 @@
 @namespace      github.com/nomunyan/ilbe-dark
 @version        1.0.0
 @description    일간베스트저장소 다크테마
-@author         일게이
+@author         애게이
 @preprocessor   default
 ==/UserStyle== */
 @-moz-document domain("ilbe.com") {
+  body {
+    font-family: "맑은 고딕";
+  }
   body,
   .pulldown-wrap {
     background-color: #222;
@@ -14,7 +17,10 @@
 
   .widget h2 a,
   .tmonsori_1.date {
+    font-family: "맑은 고딕" !important;
     color: #fff;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -2px 0 #000,
+      1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
   }
 
   .bg-season {
@@ -113,6 +119,8 @@
   .board-body .title-line,
   .btn-default span,
   .pulldown-wrap td,
+  .login-box span input,
+  .login-box button,
   #aside-wrap,
   select,
   input {
@@ -127,6 +135,8 @@
   #aside-wrap {
     background-color: #444;
   }
+
+  .login-box button,
   .member-wrap .member-service a,
   .member-wrap .logout {
     background: #333;
@@ -164,6 +174,7 @@
     background: #333;
   }
 
+  .doc-pop-menu tr,
   .user-pop-menu tr {
     background-color: #555 !important;
     border-color: #777 !important;
@@ -176,5 +187,12 @@
 
   #event-toast .toast a {
     color: #444 !important;
+  }
+
+  .logo-link a {
+    background-image: url(/files/attach/cmt/20200124/4806114/264722873/11228514276/bb332b74a36df369881714f16c27561f_11228514275.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
