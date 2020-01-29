@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Ilbe FixedHeader
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    일베 헤더 고정
+@author         애게이
+==/UserStyle== */
+@-moz-document domain("ilbe.com") {
+	#header {
+		position: sticky;
+		top: -92px;
+		z-index: 99;
+	}
+}
