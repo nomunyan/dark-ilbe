@@ -195,4 +195,8 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+	
+	.popup_wrap, .popup_wrap * {
+		color: #555 !important;
+	}
 }
