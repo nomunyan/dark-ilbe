@@ -196,7 +196,10 @@
     background-position: center;
   }
 	
-	.popup_wrap, .popup_wrap * {
-		color: #555 !important;
-	}
+  .popup_header {
+    color: #444;
+  }
+  .popup_body {
+    background-color: #222;
+  }
 }
