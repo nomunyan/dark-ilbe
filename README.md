@@ -1,6 +1,6 @@
 # 일베 다크테마
 
-이 스크립트는 단순 `usercss`로, 브라우저에서 자체호스팅되기 때문에 외부로 정보를 가져가지 않음.
+이 스크립트는 단순 `usercss`임.
 
 - [usercss란?](https://github.com/openstyles/stylus/wiki/Usercss)
 
