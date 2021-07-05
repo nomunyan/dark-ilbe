@@ -7,6 +7,9 @@
 @preprocessor   default
 ==/UserStyle== */
 @-moz-document domain("ilbe.com") {
+  html {
+    color-scheme: dark;
+  }
   body {
     font-family: "맑은 고딕";
   }
